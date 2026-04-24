@@ -20,7 +20,7 @@ class Solution {
     public boolean isAnagram(String s, String t) {
         char[] sortedCharS = s.toCharArray();
         char[] sortedCharT = t.toCharArray();
-        Arrays.sort(sortedCharS); // dual pivot quicksort O(n log n) worst O(n); space O(1)
+        Arrays.sort(sortedCharS); // dual pivot quicksort O(n log n) worst O(n); space O(log n)
         Arrays.sort(sortedCharT);
 
         return Arrays.equals(sortedCharS, sortedCharT);
