@@ -17,6 +17,7 @@ Output: false
 Constraints:
 
 s and t consist of lowercase English letters.
+O(n)
 */
 class Solution {
     public boolean isAnagram(String s, String t) {
