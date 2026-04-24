@@ -18,6 +18,10 @@ s and t consist of lowercase English letters.
 */
 class Solution {
     public boolean isAnagram(String s, String t) {
+        if (s.length() != t.length()) {
+            return false;
+        }
+        
         char[] sortedCharS = s.toCharArray();
         char[] sortedCharT = t.toCharArray();
         Arrays.sort(sortedCharS); // dual pivot quicksort O(n log n) worst O(n); space O(log n)
