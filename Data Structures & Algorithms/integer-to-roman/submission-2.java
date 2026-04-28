@@ -39,7 +39,7 @@ Note: 49 is not 1 (I) less of 50 (L) because the conversion is based on decimal 
 
 // modulo gets digits from right
 // division digits from left
-
+// complexity is O(1); array.get(n) is O(1)
 class Solution {
     public String intToRoman(int num) {
         String[] thousands = {"", "M", "MM", "MMM"};
