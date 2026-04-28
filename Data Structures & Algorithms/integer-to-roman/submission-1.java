@@ -1,4 +1,8 @@
 /*Integer to Roman
+Constraints:
+
+1 <= num <= 3999
+
 Medium
 Topics
 Company Tags
@@ -37,6 +41,7 @@ Explanation:
 9 = IX as 1 (I) less of 10 (X)
 Note: 49 is not 1 (I) less of 50 (L) because the conversion is based on decimal places*/
 
+// complexity is O(1) even though we use for loop; loop iterates maximum 13 times, not n times
 // solution by only table lookup and addition
 class Solution {
     public String intToRoman(int num) {
