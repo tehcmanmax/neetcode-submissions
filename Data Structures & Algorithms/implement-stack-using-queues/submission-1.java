@@ -1,5 +1,5 @@
 class MyStack {
-    private Queue<Integer> queue; // lifo
+    private Queue<Integer> queue; // fifo
 
     public MyStack() {
         this.queue = new LinkedList();
