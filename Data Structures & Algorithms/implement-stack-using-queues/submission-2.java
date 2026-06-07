@@ -1,5 +1,5 @@
 class MyStack { //most efficients solution
-    private Queue<Integer> queue; // fifo
+    private Queue<Integer> queue; // lifo
 
     public MyStack() {
         this.queue = new LinkedList();
